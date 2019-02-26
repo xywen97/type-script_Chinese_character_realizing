@@ -31,10 +31,10 @@ STSONG.TTF
 
 ### 下面是本项目基本结构图：  
 writing_word_realizing:  
->>|  
+  |  
 	|--datasets/  
 	|  |--testlabels/  
-	|  |  |--testlabels.txt  
+	|   |  |--testlabels.txt  
 	|  |--testsets/  
   |  |  |--001  
   |  |  |  |--000.jpg  
