@@ -1,4 +1,4 @@
-# # #人工神经网络完成字体的分类鉴定  
+## 人工神经网络完成字体的分类鉴定  
 
 1、类比于MNIST手写数字集的识别，完成汉字的不同字体的分类识别  
 
@@ -12,11 +12,11 @@
 
 6、完成训练
 
-运行环境配置：  
+### 运行环境配置：  
 GPU TITAN xp、python 2.1.15(anaconda)，keras-gpu=2.2.4, tensorflow-gpu=1.8.0  
 其他依赖包...  
 
-下面是参与训练的相关字体库：  
+### 下面是参与训练的相关字体库：  
 ttf_sets:  
 DENG.TTF  
 FZSTK.TTF  
@@ -29,9 +29,9 @@ SIMYOU.TTF
 STHUPO.TTF  
 STSONG.TTF  
 
-下面是本项目基本结构图：  
+### 下面是本项目基本结构图：  
 writing_word_realizing:  
-	|  
+>>|  
 	|--datasets/  
 	|  |--testlabels/  
 	|  |  |--testlabels.txt  
@@ -68,15 +68,15 @@ writing_word_realizing:
   |--reshape_img.py  
   |--str2img.py  
   
-预处理：  
+### 预处理：  
 数据集生成：  
   文字转图片：  
   python str2img.py   
   图片大小设定（28*28）：  
   python reshape_img.py  
   
-运行：  
+### 运行：  
 python demo.py  
   
-测试：  
+### 测试：  
  。。。。。。  
