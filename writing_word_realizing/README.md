@@ -1,22 +1,22 @@
-###ÈË¹¤Éñ¾­ÍøÂçÍê³É×ÖÌåµÄ·ÖÀà¼ø¶¨
+###äººå·¥ç¥žç»ç½‘ç»œå®Œæˆå­—ä½“çš„åˆ†ç±»é‰´å®š
 
-1¡¢Àà±ÈÓÚMNISTÊÖÐ´Êý×Ö¼¯µÄÊ¶±ð£¬Íê³Éºº×ÖµÄ²»Í¬×ÖÌåµÄ·ÖÀàÊ¶±ð
+1ã€ç±»æ¯”äºŽMNISTæ‰‹å†™æ•°å­—é›†çš„è¯†åˆ«ï¼Œå®Œæˆæ±‰å­—çš„ä¸åŒå­—ä½“çš„åˆ†ç±»è¯†åˆ«
 
-2¡¢ºº×ÖµÄ×ÖÌåÊ¶±ð´Ó×ÖÌå¿âÖÐ»ñÈ¡
+2ã€æ±‰å­—çš„å­—ä½“è¯†åˆ«ä»Žå­—ä½“åº“ä¸­èŽ·å–
 
-3¡¢Ã¿¸ö×ÖÌå¿ÉÒÔ»ñÈ¡114¸ö×Ö£¬¾¡Á¿°üº¬ºº×ÖÖÐµÄ±Ê»­µÄËùÓÐ±ä»¯
+3ã€æ¯ä¸ªå­—ä½“å¯ä»¥èŽ·å–114ä¸ªå­—ï¼Œå°½é‡åŒ…å«æ±‰å­—ä¸­çš„ç¬”ç”»çš„æ‰€æœ‰å˜åŒ–
 
-4¡¢Ê¹ÓÃ¾í»ýÉñ¾­ÍøÂç£¬¶Ôºº×ÖÍ¼Æ¬½øÐÐ»ù±¾µÄÌØÕ÷ÌáÈ¡
+4ã€ä½¿ç”¨å·ç§¯ç¥žç»ç½‘ç»œï¼Œå¯¹æ±‰å­—å›¾ç‰‡è¿›è¡ŒåŸºæœ¬çš„ç‰¹å¾æå–
 
-5¡¢±êÇ©ÀàËÆÓÚMNISTÊÖÐ´Êý×Ö¼¯µÄ´¦Àí£¬Îª²»Í¬µÄ×ÖÌåµÄÃû³Æ£¨ËÎÌå£¬ºÚÌå£¬µÈ¡£¡£¡££©
- 
-6¡¢Íê³ÉÑµÁ··ÖÀàÊ¶±ð
+5ã€æ ‡ç­¾ç±»ä¼¼äºŽMNISTæ‰‹å†™æ•°å­—é›†çš„å¤„ç†ï¼Œä¸ºä¸åŒçš„å­—ä½“çš„åç§°ï¼ˆå®‹ä½“ï¼Œé»‘ä½“ï¼Œç­‰ã€‚ã€‚ã€‚ï¼‰
+
+6ã€å®Œæˆè®­ç»ƒåˆ†ç±»è¯†åˆ«
 -------------------------------------------------------------------------------------
-ÔËÐÐ»·¾³ÅäÖÃ£º
-GPU TITAN xp¡¢python 2.1.15(anaconda)£¬keras-gpu=2.2.4, tensorflow-gpu=1.8.0
-ÆäËûÒÀÀµ°ü...
+è¿è¡ŒçŽ¯å¢ƒé…ç½®ï¼š
+GPU TITAN xpã€python 2.1.15(anaconda)ï¼Œkeras-gpu=2.2.4, tensorflow-gpu=1.8.0
+å…¶ä»–ä¾èµ–åŒ…...
 
-ÏÂÃæÊÇ²ÎÓëÑµÁ·µÄÏà¹Ø×ÖÌå¿â£º
+ä¸‹é¢æ˜¯å‚ä¸Žè®­ç»ƒçš„ç›¸å…³å­—ä½“åº“ï¼š
 ttf_sets:
 DENG.TTF
 FZSTK.TTF
@@ -29,7 +29,7 @@ SIMYOU.TTF
 STHUPO.TTF
 STSONG.TTF
 
-ÏÂÃæÊÇ±¾ÏîÄ¿»ù±¾½á¹¹Í¼£º
+ä¸‹é¢æ˜¯æœ¬é¡¹ç›®åŸºæœ¬ç»“æž„å›¾ï¼š
 writing_word_realizing:
   |
   |--datasets/
@@ -68,15 +68,15 @@ writing_word_realizing:
   |--reshape_img.py
   |--str2img.py
 
-Ô¤´¦Àí£º
-Êý¾Ý¼¯Éú³É£º
-  ÎÄ×Ö×ªÍ¼Æ¬£º
+é¢„å¤„ç†ï¼š
+æ•°æ®é›†ç”Ÿæˆï¼š
+  æ–‡å­—è½¬å›¾ç‰‡ï¼š
   python str2img.py 
-  Í¼Æ¬´óÐ¡Éè¶¨£¨28*28£©£º
+  å›¾ç‰‡å¤§å°è®¾å®šï¼ˆ28*28ï¼‰ï¼š
   python reshape_img.py
   
-ÔËÐÐ£º
+è¿è¡Œï¼š
 python demo.py
 
-²âÊÔ£º
- ¡£¡£¡£¡£¡£¡£
+æµ‹è¯•ï¼š
+ ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚
