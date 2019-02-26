@@ -42,7 +42,7 @@ text = u'北国风光千里冰封万里雪飘\
 一代天骄成吉思汗只识弯弓射大雕\
 俱往矣数风流人物还看今朝'
 
-text_test = u'电子科技大学'
+text_test = u'电子科技大学信息与软'
 
 for i in range(len(text_test)):
     # PIL实现
@@ -50,8 +50,9 @@ for i in range(len(text_test)):
     height=28
     im=Image.new('RGB',(width,height),(255,255,255))
     dr=ImageDraw.Draw(im)
-    font=ImageFont.truetype("ttf_sets/STSONG.TTF",24)
+    # 此处可以遍历实现不同字体的生成
+    font=ImageFont.truetype('ttf_sets/'+ttf_sets[i],24)
     dr.text((1,-1),text_test[i],font=font,fill='#000000')
 
     #im.show()
-    im.save('datasets/testsets/010/' + '%03d'%i + '.jpg')
+    im.save('datasets/testimages/' + '%03d'%i + '.jpg')

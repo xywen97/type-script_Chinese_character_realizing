@@ -20,9 +20,9 @@ sess_config = tf.ConfigProto()
 sess_config.gpu_options.per_process_gpu_memory_fraction = 0.4
 sess = tf.Session(config=sess_config) 
 
-batch_size = 1
-num_classes = 3
-epochs = 20
+batch_size = 4
+num_classes = 10
+epochs = 10
 
 # input image dimensions
 img_rows, img_cols = 28, 28
@@ -48,8 +48,10 @@ def rgb2gray(rgb):
 # to trans the rgb images to gray images
 def gci(sets, filepath):
   files = os.listdir(filepath)
+  files.sort()
   for fi in files:
-    fi_d = os.path.join(filepath,fi)            
+    fi_d = os.path.join(filepath,fi)     
+    print(fi_d)       
     if os.path.isdir(fi_d):
       gci(sets, fi_d)                  
     else:
