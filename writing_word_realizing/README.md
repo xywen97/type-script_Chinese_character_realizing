@@ -30,43 +30,7 @@ STHUPO.TTF
 STSONG.TTF  
 
 ### 下面是本项目基本结构图：  
-writing_word_realizing:  
-&nbsp;|  
-&nbsp;|--datasets/  
-&nbsp;|&nbsp;&nbsp;|--testlabels/  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--testlabels.txt  
-&nbsp;|&nbsp;&nbsp;|--testsets/  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--002  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--...  
-&nbsp;|&nbsp;&nbsp;|--trainlabels/  
-&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--trainlabels.txt  
-&nbsp;|&nbsp;&nbsp;|--trainsets/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|--001  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|--002  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|--...  
-&nbsp;|--traind_model/  
-&nbsp;|&nbsp;&nbsp;|--model.h5  
-&nbsp;|--ttf_sets/  
-&nbsp;|&nbsp;&nbsp;|--xxx.ttf/TTF  
-&nbsp;|&nbsp;&nbsp;|--xxx.ttc/TTC  
-&nbsp;|--demo.py  
-&nbsp;|--mnist.py  
-&nbsp;|--README.md  
-&nbsp;|--reshape_img.py  
-&nbsp;|--str2img.py  
+![结构图]https://github.com/Toneywen/writing_character_realizing/blob/master/writing_word_realizing/configs/%E7%BB%93%E6%9E%84%E5%9B%BE.jpg
   
 ### 预处理：  
 数据集生成：  
