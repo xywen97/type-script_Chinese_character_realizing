@@ -1,5 +1,13 @@
 #-*- coding: utf-8 -*- 
 
+# author: wxy
+# project: https://github.com/Toneywen/writing_character_realizing
+'''
+try to use the cnn framework to classify the type of the characters,
+we use the 10 different types of characters,
+got the good results.
+'''
+
 from __future__ import print_function
 import keras
 import os
