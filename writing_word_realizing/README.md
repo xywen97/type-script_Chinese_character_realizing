@@ -30,7 +30,7 @@ STHUPO.TTF
 STSONG.TTF  
 
 ### 下面是本项目基本结构图：  
-![结构图]https://github.com/Toneywen/writing_character_realizing/blob/master/writing_word_realizing/configs/%E7%BB%93%E6%9E%84%E5%9B%BE.jpg
+![image](https://github.com/Toneywen/writing_character_realizing/blob/master/writing_word_realizing/configs/%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
   
 ### 预处理：  
 数据集生成：  
