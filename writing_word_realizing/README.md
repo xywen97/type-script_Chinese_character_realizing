@@ -31,42 +31,42 @@ STSONG.TTF
 
 ### 下面是本项目基本结构图：  
 writing_word_realizing:  
-  |  
-	|--datasets/  
-	|  |--testlabels/  
-	|   |  |--testlabels.txt  
-	|  |--testsets/  
-  |  |  |--001  
-  |  |  |  |--000.jpg  
-  |  |  |  |--001.jpg  
-  |  |  |  |--xxx.jpg  
-  |  |  |--002  
-  |  |  |  |--000.jpg  
-  |  |  |  |--001.jpg  
-  |  |  |  |--xxx.jpg  
-  |  |  |--...  
-  |  |--trainlabels/  
-  |  |  |--trainlabels.txt  
-  |  |--trainsets/  
-  |     |--001  
-  |     |  |--000.jpg  
-  |     |  |--001.jpg  
-  |     |  |--xxx.jpg  
-  |     |--002  
-  |     |  |--000.jpg  
-  |     |  |--001.jpg  
-  |     |  |--xxx.jpg  
-  |     |--...  
-  |--traind_model/  
-  |  |--model.h5  
-  |--ttf_sets/  
-  |  |--xxx.ttf/TTF  
-  |  |--xxx.ttc/TTC  
-  |--demo.py  
-  |--mnist.py  
-  |--README.md  
-  |--reshape_img.py  
-  |--str2img.py  
+&nbsp;|  
+&nbsp;|--datasets/  
+&nbsp;|&nbsp;&nbsp;|--testlabels/  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--testlabels.txt  
+&nbsp;|&nbsp;&nbsp;|--testsets/  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--002  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--...  
+&nbsp;|&nbsp;&nbsp;|--trainlabels/  
+&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--trainlabels.txt  
+&nbsp;|&nbsp;&nbsp;|--trainsets/  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|--001  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|--002  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--000.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--001.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|--xxx.jpg  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|--...  
+&nbsp;|--traind_model/  
+&nbsp;|&nbsp;&nbsp;|--model.h5  
+&nbsp;|--ttf_sets/  
+&nbsp;|&nbsp;&nbsp;|--xxx.ttf/TTF  
+&nbsp;|&nbsp;&nbsp;|--xxx.ttc/TTC  
+&nbsp;|--demo.py  
+&nbsp;|--mnist.py  
+&nbsp;|--README.md  
+&nbsp;|--reshape_img.py  
+&nbsp;|--str2img.py  
   
 ### 预处理：  
 数据集生成：  
@@ -79,4 +79,56 @@ writing_word_realizing:
 python demo.py  
   
 ### 测试：  
- 。。。。。。  
+python test.py
+测试数据集包含在 datasets/testimages下面
+测试数据集生成：使用str2img.py生成
+
+### 运行结果：
+#### 训练阶段：
+1140/1140 [==============================] - 3s 3ms/step - loss: 1.8116 - acc: 0.3211 - val_loss: 0.7419 - val_acc: 0.7167  
+Epoch 2/10  
+1140/1140 [==============================] - 2s 2ms/step - loss: 0.6283 - acc: 0.7746 - val_loss: 0.2111 - val_acc: 0.9500  
+Epoch 3/10  
+1140/1140 [==============================] - 2s 2ms/step - loss: 0.2964 - acc: 0.8921 - val_loss: 0.1274 - val_acc: 0.9333  
+Epoch 4/10  
+1140/1140 [==============================] - 4s 4ms/step - loss: 0.1810 - acc: 0.9342 - val_loss: 0.1197 - val_acc: 0.9500  
+Epoch 5/10  
+1140/1140 [==============================] - 5s 4ms/step - loss: 0.1145 - acc: 0.9588 - val_loss: 0.0270 - val_acc: 1.0000  
+Epoch 6/10  
+1140/1140 [==============================] - 5s 5ms/step - loss: 0.0863 - acc: 0.9754 - val_loss: 0.1257 - val_acc: 0.9833  
+Epoch 7/10  
+1140/1140 [==============================] - 5s 4ms/step - loss: 0.0724 - acc: 0.9763 - val_loss: 0.1124 - val_acc: 0.9500  
+Epoch 8/10  
+1140/1140 [==============================] - 5s 4ms/step - loss: 0.0488 - acc: 0.9842 - val_loss: 0.0128 - val_acc: 1.0000  
+Epoch 9/10  
+1140/1140 [==============================] - 5s 4ms/step - loss: 0.0434 - acc: 0.9860 - val_loss: 0.0060 - val_acc: 1.0000  
+Epoch 10/10  
+1140/1140 [==============================] - 5s 4ms/step - loss: 0.0364 - acc: 0.9877 - val_loss: 0.0928 - val_acc: 0.9833  
+Test loss: 0.0927583186577  
+Test accuracy: 0.983333333333  
+训练结果看起来有些过拟合.....
+
+#### 测试阶段
+datasets/testimages/004.jpg  
+datasets/testimages/009.jpg  
+datasets/testimages/001.jpg  
+datasets/testimages/006.jpg  
+datasets/testimages/005.jpg  
+datasets/testimages/003.jpg  
+datasets/testimages/000.jpg  
+datasets/testimages/002.jpg  
+datasets/testimages/008.jpg  
+datasets/testimages/007.jpg  
+('test shape:', (10, 28, 28, 1))  
+(10, 'test samples')  
+4  
+9  
+1  
+6  
+5  
+3  
+0  
+2  
+8  
+7  
+经过softmax分类过后，与投喂的测试数据集类别吻合
