@@ -36,8 +36,10 @@ STSONG.TTF
 数据集生成：  
   文字转图片：  
   python str2img.py   
+    
   图片大小设定（28*28）：  
   python reshape_img.py  
+    
   
 ### 运行：  
 python demo.py  
